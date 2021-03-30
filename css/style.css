@@ -9,17 +9,18 @@
 
 .title{
     font-size: 72px;
-    text-align: center;
+    text-align:;
 }
 
 .text__wrap{
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     transition: all 5s;
 }
 
 .text{
     font-size: 60px;
+    margin-right: 15px;
 }
 
 .text-1{

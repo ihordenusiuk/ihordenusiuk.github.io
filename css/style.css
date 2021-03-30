@@ -1,10 +1,43 @@
 .box{
-    width: 200px;
-    height: 200px;
-    background-color: tomato;
+    width: 2000px;
+    height: 800px;
     margin-right: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+
 }
 
-.content{
+.title{
+    font-size: 72px;
+    text-align: center;
+}
+
+.text__wrap{
     display: flex;
+    justify-content: space-around;
+    transition: all 5s;
+}
+
+.text{
+    font-size: 60px;
+}
+
+.text-1{
+    color: red;
+}
+
+.text-2{
+    color: orange;
+}
+
+.text-3{
+    color: yellow;
+}
+
+.text-4{
+    color: lightgreen;
+}
+
+.text-5{
+    color: blue;
 }
